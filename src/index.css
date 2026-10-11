@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  --bg-canvas: #fbfbf9;
+  --surface-card: #ffffff;
+  --navy-dark: #091e3a;
+  --navy-muted: #334e68;
+  --emerald-accent: #059669;
+  --mint-soft: #ecfdf5;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fbfbf9;
+  color: #102a43;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbars for clean look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Print styling for First-Salary Flight Plan report */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  .flight-plan-printable {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .page-break {
+    page-break-before: always;
+  }
+}
