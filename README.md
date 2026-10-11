@@ -3,7 +3,7 @@
 # 🧭 FirstSalary OS
 ### Personal Finance Operating System for First-Time Earners
 
-[![CI / CD Deploy](https://github.com/FirstSalary-OS/FirstSalary-OS/actions/workflows/deploy.yml/badge.svg)](https://github.com/FirstSalary-OS/FirstSalary-OS/actions)
+[![CI / CD Deploy](https://github.com/vivekbadgu03/firstsalary-os/actions/workflows/deploy.yml/badge.svg)](https://github.com/vivekbadgu03/firstsalary-os/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](https://opensource.org/licenses/MIT)
 [![React 19](https://img.shields.io/badge/React-19.2-61dafb.svg?logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -37,7 +37,7 @@ Rather than relying on generic, detached 50/30/20 percentages, FirstSalary OS gr
 
 | Deployment Target | Status | URL |
 | :--- | :--- | :--- |
-| **GitHub Pages** | Automated via CI/CD Workflow | `https://<your-username>.github.io/<repo-name>/` |
+| **GitHub Pages (Public Web)** | Automated via CI/CD Workflow | `https://vivekbadgu03.github.io/firstsalary-os/` |
 | **Localhost Development** | Ready on port `5173` | `http://localhost:5173/` |
 | **Localhost Direct Loopback** | Ready | `http://127.0.0.1:5173/` |
 
@@ -56,10 +56,10 @@ Get FirstSalary OS running on your local machine in under 60 seconds:
 ### 2. Clone & Install
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/FirstSalary-OS.git
+git clone https://github.com/vivekbadgu03/firstsalary-os.git
 
 # Navigate into the project directory
-cd FirstSalary-OS
+cd firstsalary-os
 
 # Install dependencies
 npm install
